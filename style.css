@@ -1,0 +1,18 @@
+@font-face {
+	font-family: JuneBug;
+	src: url("./Grand\ Wilson\ Sans\ DEMO.otf") format("opentype");
+}
+h1 {
+	font-size: 6rem;
+	font-family: "Grand Wilson", sans-serif;
+	color: white;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
