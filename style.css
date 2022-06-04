@@ -6,6 +6,18 @@ h1 {
 	font-size: 6rem;
 	font-family: "Grand Wilson", sans-serif;
 	color: white;
+	text-align: center;
+}
+
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+	h1 {
+		font-size: 4rem;
+	}
+
+	#logo-image {
+		width: 50px;
+	}
 }
 
 body {
@@ -24,6 +36,10 @@ body {
 	position: absolute;
 	align-self: flex-start;
 	justify-self: flex-start;
+}
+
+#logo-image {
+	width: 150px;
 }
 
 .glow {
